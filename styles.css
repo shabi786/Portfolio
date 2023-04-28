@@ -239,7 +239,7 @@ ul a:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     width: 80%;
-    padding: 20px;
+    /* padding: 20px; */
     box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
 }
 
@@ -290,7 +290,6 @@ ul a:hover {
 }
 
 .project-info p {
-    line-height: 1.2rem;
     letter-spacing: 0.1rem;
 }
 
@@ -522,4 +521,63 @@ ul a:hover {
         flex-direction: row;
     }
 
+}
+
+@media screen and (max-width: 479px) {
+    .typed {
+        white-space: normal;
+        overflow: visible;
+        border-right: none;
+        width: auto;
+        animation: none;
+    }
+
+    .about-left h3 {
+        font-size: 2.5rem;
+    }
+
+    .about-right img {
+        width: 180px;
+    }
+
+    .skills h3 {
+        font-size: 2.5rem;
+    }
+
+    .skill-container {
+        width: 80px;
+        gap: 5px;
+    }
+
+    .project h3 {
+        font-size: 2.5rem;
+    }
+
+    .project-info {
+        width: 260px;
+    }
+
+    .contact h3 {
+        font-size: 2.5rem;
+    }
+
+    .contact-left h4 {
+        font-size: 2rem;
+    }
+
+    .contact-left {
+        width: 100%;
+    }
+
+    .contact-right h4 {
+        font-size: 2rem;
+    }
+
+    .contact-content {
+        gap: 5px;
+    }
+
+    .contact-right {
+        width: 100%;
+    }
 }
